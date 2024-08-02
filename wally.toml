@@ -1,0 +1,13 @@
+[package]
+name = "cody-nelson/logr"
+description = "Logr is a simplistic logging library"
+version = "0.0.8"
+license = "MIT"
+authors = ["Schematics"]
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = []
+include = ["README.md", "default.project.json"]
+
+[dependencies]
+t = "osyrisrblx/t@3.1.1"
