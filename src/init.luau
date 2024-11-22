@@ -33,6 +33,8 @@ Logr._defaultLevel = "None"
 local tNew = t.tuple(t.string, t.optional(t.string))
 function Logr.new(name: string, level: string?)
 	assert(tNew(name, level))
+
+	level = level or self._defaultLevel
 	assert(IsValidLogLevelName(level :: string))
 
 	local self = setmetatable({}, Logr)
@@ -41,7 +43,7 @@ function Logr.new(name: string, level: string?)
 	end
 
 	self.Name = name
-	self._logLevel = (level or self._defaultLevel) :: string
+	self._logLevel = level :: string
 	self._logId = logLevelToId[self._logLevel] :: number
 
 	return self
