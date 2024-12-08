@@ -1,7 +1,7 @@
 [package]
-name = "cody-nelson/logr"
+name = "azutreo/logr"
 description = "Logr is a simplistic logging library"
-version = "0.0.9"
+version = "0.0.10"
 license = "MIT"
 authors = ["Cody Nelson"]
 registry = "https://github.com/UpliftGames/wally-index"
