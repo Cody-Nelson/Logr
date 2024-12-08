@@ -1,5 +1,5 @@
 [package]
-name = "cody-nelson/logr"
+name = "azutreo/logr"
 description = "Logr is a simplistic logging library"
 version = "0.0.10"
 license = "MIT"
